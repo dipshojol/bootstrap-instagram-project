@@ -1,0 +1,62 @@
+body {
+  background: #fafafa; }
+  body header {
+    background: #fff;
+    height: 75px;
+    border-top: 1px solid rgba(0, 0, 0, 0.0975);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0975); }
+    body header nav {
+      max-width: 1010px;
+      margin: auto;
+      height: 25px;
+      flex-wrap: wrap !important; }
+      body header nav > a.navbar-brand {
+        padding-top: 1rem; }
+      body header nav .form-control.mr-sm-2 {
+        height: 28px; }
+      body header nav .form-inline.my-2.my-lg-0 ul li a {
+        padding-top: 0.1rem;
+        padding-bottom: 0.2rem; }
+      body header nav .form-inline.my-2.my-lg-0 ul li .sign-up {
+        padding-left: 1.5rem;
+        padding-top: 0.2rem; }
+      body header nav span {
+        display: inline-block;
+        background-color: #262626;
+        height: 28px;
+        margin: 0 16px;
+        width: 1px; }
+  body .body-container {
+    max-width: 1010px;
+    margin: auto; }
+    body .body-container .main-body {
+      padding: 60px 20px 0; }
+      body .body-container .main-body .search-result {
+        max-width: 1010px; }
+        body .body-container .main-body .search-result .search-details {
+          border: 1px solid red;
+          height: 170px;
+          padding-bottom: 44px; }
+          body .body-container .main-body .search-result .search-details .search-logo-container {
+            border: 1px solid red;
+            height: 170px;
+            width: 100px; }
+            body .body-container .main-body .search-result .search-details .search-logo-container .search-inner-logo-container .circle {
+              border: 1px solid #e6e6e6;
+              height: 168px;
+              width: 168px;
+              position: absolute;
+              border-radius: 50%;
+              overflow: hidden;
+              margin: 0 75px; }
+              body .body-container .main-body .search-result .search-details .search-logo-container .search-inner-logo-container .circle img {
+                height: 100%; }
+          body .body-container .main-body .search-result .search-details .search-details-container {
+            border: 1px solid red;
+            height: 170px; }
+            body .body-container .main-body .search-result .search-details .search-details-container span {
+              font-size: 29px; }
+        body .body-container .main-body .search-result .suggestions {
+          border: 1px solid green;
+          height: 130px;
+          padding-bottom: 44px; }

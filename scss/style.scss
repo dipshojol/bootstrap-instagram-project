@@ -1,0 +1,118 @@
+$bg-color: #fafafa;
+
+body {
+    background: $bg-color;
+
+    header {
+        background: #fff;
+        height: 75px;
+        border-top: 1px solid rgba(0, 0, 0, .0975);
+        border-bottom: 1px solid rgba(0, 0, 0, .0975);
+
+        nav {
+            max-width: 1010px;
+            margin: auto;
+            height: 25px;
+            // padding-top: 15px;
+            flex-wrap: wrap !important;
+
+            // justify-content: space-between;
+            >a.navbar-brand {
+                padding-top: 1rem;
+            }
+
+            .form-control.mr-sm-2 {
+                height: 28px;
+            }
+
+            .form-inline.my-2.my-lg-0 {
+                ul {
+                    li {
+                        a {
+                            padding-top: 0.1rem;
+                            padding-bottom: 0.2rem;
+                        }
+
+                        .sign-up {
+                            padding-left: 1.5rem;
+                            padding-top: 0.2rem;
+
+                        }
+                    }
+                }
+            }
+
+            span {
+                display: inline-block;
+                background-color: #262626;
+                height: 28px;
+                margin: 0 16px;
+                width: 1px;
+            }
+
+
+        }
+    }
+
+    .body-container {
+        max-width: 1010px;
+        margin: auto;
+
+        .main-body {
+            padding: 60px 20px 0;
+
+            .search-result {
+                max-width: 1010px;
+                // border: 1px solid;
+                // height: 300px;
+
+                .search-details {
+                    border: 1px solid red;
+                    height: 170px;
+                    padding-bottom: 44px;
+
+                    .search-logo-container {
+                        border: 1px solid red;
+                        height: 170px;
+                        width: 100px;
+
+                        .search-inner-logo-container {
+                            .circle {
+                                border: 1px solid #e6e6e6;
+                                height: 168px;
+                                width: 168px;
+                                position: absolute;
+                                border-radius: 50%;
+                                overflow: hidden;
+                                margin: 0 75px;
+
+                                img {
+                                    height: 100%;
+
+                                }
+
+                            }
+                        }
+
+                    }
+
+                    .search-details-container {
+                        border: 1px solid red;
+                        height: 170px;
+
+                        span{
+                        	font-size: 29px;
+                        }
+                    }
+                }
+
+                .suggestions {
+                    border: 1px solid green;
+                    height: 130px;
+                    padding-bottom: 44px;
+                }
+            }
+
+        }
+    }
+}
