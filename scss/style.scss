@@ -100,8 +100,25 @@ body {
                         border: 1px solid red;
                         height: 170px;
 
-                        span{
-                        	font-size: 29px;
+                        .first-child{
+                            margin-bottom: 6px;
+                        }
+
+                        span {
+                            font-size: 29px;
+                        }
+
+                        h2 {
+                            font-weight: normal;
+                        }
+
+                        .humbercollege {
+                            padding-top: 20px;
+
+                            :first-child {
+                                font-weight: bold;
+                            }
+
                         }
                     }
                 }
