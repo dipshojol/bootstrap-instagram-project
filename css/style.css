@@ -54,8 +54,16 @@ body {
           body .body-container .main-body .search-result .search-details .search-details-container {
             border: 1px solid red;
             height: 170px; }
+            body .body-container .main-body .search-result .search-details .search-details-container .first-child {
+              margin-bottom: 6px; }
             body .body-container .main-body .search-result .search-details .search-details-container span {
               font-size: 29px; }
+            body .body-container .main-body .search-result .search-details .search-details-container h2 {
+              font-weight: normal; }
+            body .body-container .main-body .search-result .search-details .search-details-container .humbercollege {
+              padding-top: 20px; }
+              body .body-container .main-body .search-result .search-details .search-details-container .humbercollege :first-child {
+                font-weight: bold; }
         body .body-container .main-body .search-result .suggestions {
           border: 1px solid green;
           height: 130px;
