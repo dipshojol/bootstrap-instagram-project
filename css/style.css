@@ -34,15 +34,12 @@ body {
       body .body-container .main-body .search-result {
         max-width: 1010px; }
         body .body-container .main-body .search-result .search-details {
-          border: 1px solid red;
           height: 170px;
           padding-bottom: 44px; }
           body .body-container .main-body .search-result .search-details .search-logo-container {
-            border: 1px solid red;
             height: 170px;
             width: 100px; }
             body .body-container .main-body .search-result .search-details .search-logo-container .search-inner-logo-container .circle {
-              border: 1px solid #e6e6e6;
               height: 168px;
               width: 168px;
               position: absolute;
@@ -52,7 +49,6 @@ body {
               body .body-container .main-body .search-result .search-details .search-logo-container .search-inner-logo-container .circle img {
                 height: 100%; }
           body .body-container .main-body .search-result .search-details .search-details-container {
-            border: 1px solid red;
             height: 170px; }
             body .body-container .main-body .search-result .search-details .search-details-container .first-child {
               margin-bottom: 6px; }
@@ -65,6 +61,76 @@ body {
               body .body-container .main-body .search-result .search-details .search-details-container .humbercollege :first-child {
                 font-weight: bold; }
         body .body-container .main-body .search-result .suggestions {
-          border: 1px solid green;
           height: 130px;
-          padding-bottom: 44px; }
+          padding-bottom: 44px;
+          position: relative;
+          margin-top: 30px; }
+          body .body-container .main-body .search-result .suggestions span {
+            cursor: pointer; }
+          body .body-container .main-body .search-result .suggestions span:first-child {
+            position: absolute;
+            top: 50px;
+            border: 1px solid;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%; }
+            body .body-container .main-body .search-result .suggestions span:first-child img {
+              height: 10px;
+              margin: -9px 0 0 3px; }
+          body .body-container .main-body .search-result .suggestions span:nth-child(2n) {
+            position: absolute;
+            right: 0;
+            top: 50px;
+            border: 1px solid;
+            border-radius: 50%;
+            height: 20px;
+            width: 20px; }
+            body .body-container .main-body .search-result .suggestions span:nth-child(2n) img {
+              height: 10px;
+              margin: -9px 0 0 3px; }
+          body .body-container .main-body .search-result .suggestions div div {
+            width: 95%;
+            overflow: scroll;
+            margin: auto; }
+            body .body-container .main-body .search-result .suggestions div div ul {
+              width: 190%;
+              height: 129px;
+              padding-left: 0;
+              margin-left: -15px;
+              position: relative; }
+              body .body-container .main-body .search-result .suggestions div div ul li {
+                height: 100px;
+                width: 100px;
+                border: 1px solid;
+                list-style: none;
+                position: relative;
+                display: inline-block;
+                border-radius: 50%;
+                overflow: hidden;
+                margin: 10px 20px 0; }
+                body .body-container .main-body .search-result .suggestions div div ul li img {
+                  height: 110px;
+                  width: 110px; }
+      body .body-container .main-body .all-post-container {
+        margin-top: 20px; }
+        body .body-container .main-body .all-post-container .post-tagged {
+          width: 200px;
+          margin: auto; }
+          body .body-container .main-body .all-post-container .post-tagged li {
+            padding-right: 20px;
+            line-height: 60px; }
+        body .body-container .main-body .all-post-container .all-post {
+          margin-top: -17px;
+          margin-left: 12px; }
+          body .body-container .main-body .all-post-container .all-post ul {
+            margin: 0;
+            padding: 0; }
+            body .body-container .main-body .all-post-container .all-post ul li {
+              list-style: none;
+              height: 293px;
+              width: 293px;
+              padding: 18px 0;
+              overflow: hidden; }
+              body .body-container .main-body .all-post-container .all-post ul li img {
+                height: 293px;
+                width: 293px; }

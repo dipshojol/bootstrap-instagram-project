@@ -67,18 +67,18 @@ body {
                 // height: 300px;
 
                 .search-details {
-                    border: 1px solid red;
+                    // border: 1px solid red;
                     height: 170px;
                     padding-bottom: 44px;
 
                     .search-logo-container {
-                        border: 1px solid red;
+                        // border: 1px solid red;
                         height: 170px;
                         width: 100px;
 
                         .search-inner-logo-container {
                             .circle {
-                                border: 1px solid #e6e6e6;
+                                // border: 1px solid #e6e6e6;
                                 height: 168px;
                                 width: 168px;
                                 position: absolute;
@@ -97,10 +97,10 @@ body {
                     }
 
                     .search-details-container {
-                        border: 1px solid red;
+                        // border: 1px solid red;
                         height: 170px;
 
-                        .first-child{
+                        .first-child {
                             margin-bottom: 6px;
                         }
 
@@ -124,9 +124,116 @@ body {
                 }
 
                 .suggestions {
-                    border: 1px solid green;
+                    // border: 1px solid green;
                     height: 130px;
                     padding-bottom: 44px;
+                    position: relative;
+                    margin-top: 30px;
+
+                    span{
+                    	cursor: pointer;
+                    }
+
+                    span:first-child {
+                        position: absolute;
+                        top: 50px;
+                        border: 1px solid;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+
+                        img {
+                            height: 10px;
+                            margin: -9px 0 0 3px;
+                        }
+                    }
+
+                    span:nth-child(2n) {
+                        position: absolute;
+                        right: 0;
+                        top: 50px;
+                        border: 1px solid;
+                        border-radius: 50%;
+                        height: 20px;
+                        width: 20px;
+
+                        img {
+                            height: 10px;
+                            margin: -9px 0 0 3px;
+                        }
+                    }
+
+                    div {
+                        div {
+                            width: 95%;
+                            overflow: scroll;
+                            margin: auto;
+
+                            ul {
+                                width: 190%;
+                                height: 129px;
+                                padding-left: 0;
+                                margin-left: -15px;
+                                position: relative;
+
+                                li {
+                                    height: 100px;
+                                    width: 100px;
+                                    border: 1px solid;
+                                    list-style: none;
+                                    position: relative;
+                                    display: inline-block;
+                                    border-radius: 50%;
+                                    overflow: hidden;
+                                    margin: 10px 20px 0;
+
+                                    img {
+                                        height: 110px;
+                                        width: 110px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .all-post-container {
+                margin-top: 20px;
+                // border: 1px solid #808080;
+
+                .post-tagged {
+                    width: 200px;
+                    margin: auto;
+
+                    li {
+                        padding-right: 20px;
+                        line-height: 60px;
+                    }
+                }
+
+                .all-post {
+                    margin-top: -17px;
+                    margin-left: 12px;
+
+                    ul {
+                        margin: 0;
+                        padding: 0;
+
+                        li {
+                            list-style: none;
+                            height: 293px;
+                            width: 293px;
+                            // border: 1px solid #0f0f0f;
+                            padding: 18px 0;
+                            overflow: hidden;
+
+                            img {
+                                height: 293px;
+                                width: 293px;
+                            }
+                        }
+                    }
                 }
             }
 
