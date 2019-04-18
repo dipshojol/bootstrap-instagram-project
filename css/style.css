@@ -64,7 +64,7 @@ body {
           height: 130px;
           padding-bottom: 44px;
           position: relative;
-          margin-top: 30px; }
+          margin-top: 40px; }
           body .body-container .main-body .search-result .suggestions span {
             cursor: pointer; }
           body .body-container .main-body .search-result .suggestions span:first-child {
@@ -101,6 +101,9 @@ body {
               padding-left: 0;
               margin-left: -15px;
               position: relative; }
+              body .body-container .main-body .search-result .suggestions div div ul p {
+                position: absolute;
+                left: 30px; }
               body .body-container .main-body .search-result .suggestions div div ul li {
                 height: 100px;
                 width: 100px;
@@ -115,7 +118,8 @@ body {
                   height: 110px;
                   width: 110px; }
       body .body-container .main-body .all-post-container {
-        margin-top: 20px; }
+        margin-top: 40px;
+        border-top: 1px solid #d6d5d5; }
         body .body-container .main-body .all-post-container .post-tagged {
           width: 200px;
           margin: auto; }
