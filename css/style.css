@@ -90,8 +90,11 @@ body {
               margin: -9px 0 0 3px; }
           body .body-container .main-body .search-result .suggestions div div {
             width: 95%;
-            overflow: scroll;
-            margin: auto; }
+            margin: auto;
+            height: 100%;
+            overflow-y: scroll;
+            /* Increase/decrease this value for cross-browser compatibility */
+            box-sizing: content-box; }
             body .body-container .main-body .search-result .suggestions div div ul {
               width: 190%;
               height: 129px;
